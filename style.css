@@ -1,0 +1,136 @@
+body {
+  font-family:"Poppins", sans-serif;
+  background:#2a7bcb;
+  
+}
+
+header{
+    color:#fff;
+    word-spacing:2px;
+    font-size:18px;
+}
+
+.to{
+    color:lime;
+    margin:0px;
+    font-size:30px;
+    font-weight:500;
+   font-family: 'Bezella', sans-serif;
+
+    letter-spacing:0px;
+
+
+}
+.do{
+    color:lime;
+    margin:0px;
+    font-size:30px;
+    font-weight:500;
+    font-family: 'Bezella', sans-serif;
+
+    letter-spacing:0px;
+
+
+}
+
+
+.main{
+    
+    background:rgba(255,255,255,.2);
+    border:0px solid grey;
+    margin:auto;
+    width:300px;
+    height:500px;
+    box-shadow: 0px 2px 20px rgba(0,0,0,.5);
+    overflow:hidden;
+    z-index: 1000;
+    position:relative  ;
+}
+
+.main:before{
+    animation: shine55 2s infinite ;
+    content:'';
+    position:absolute;
+    width:60px;
+    height:100%;
+    left:-250px;
+    transform:skewX(-33deg);
+    top:0px;
+    background:rgba(255,255,255,0.3);
+    transition:1s;
+}
+
+
+@keyframes shine55 {
+    from {
+        left: -250px;
+    } to {
+        left: 450px;
+    }
+}
+
+
+.input{
+    padding:5px;
+    height:30px;
+    width:65%;
+    margin-left:0px;
+    color:#000;
+   /* background-color:rgba(255,255,255,.09);*/
+    background:transparent ;
+    border-left:0px solid black;
+    border-right:0px solid black;
+    border-bottom:2px solid black;
+    border-top:0px solid black;
+    letter-spacing:1px;
+    outline:none;
+    font-family:"Poppins", sans-serif;
+    
+  /*  box-shadow: 0px 2px 20px rgba(0,0,0,.1);*/
+    
+}
+
+.btn{
+    height:40px;
+    font-family:"Poppins", sans-serif;
+    width:50px;
+    outline:none;
+    float:right ;
+    background-color:rgba(255,255,255,.2);
+    border:0px solid black;
+    margin-right:5%;
+    box-shadow: 0px 1px 20px rgba(0,0,0,.1);
+    cursor:pointer;
+}
+
+span{
+    margin-left:6%;
+    font-size:15px;
+    color:red;
+    font-weight:500;
+}
+
+ol{
+   list-style-type:none;
+}
+li{
+    font-weight:600;
+    color:#fff;
+    
+    
+
+}
+
+a{
+    float:right;
+    text-decoration:none;
+    font-weight:500;
+    margin-right:10%;
+    color:red;
+    cursor:pointer;
+}
+
+footer{
+    font-size:15px;
+    
+}
